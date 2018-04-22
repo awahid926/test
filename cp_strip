@@ -1,0 +1,5 @@
+#! /bin/bash
+
+cp output/out.elf /opt/nfs/out.elf
+csky-linux-strip /opt/nfs/out.elf
+
